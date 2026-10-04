@@ -1,0 +1,22 @@
+{
+  "app_name": "TSCO Market Analyzer",
+  "version": "3.6.9",
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000
+  },
+  "database": {
+    "sqlite_path": "tsco_analyzer.db",
+    "excel_reference": "global.xlsx",
+    "torob_excel_reference": "global_with_torob.xlsx"
+  },
+  "b2b_auth_files": {
+    "khademi": "khademi_auth.json",
+    "eways": "eways_auth.json",
+    "kharidomde": "kharidomde_auth_3.json"
+  },
+  "bale_messenger": {
+    "api_base_url": "https://tapi.bale.ai",
+    "default_schedule_mode": "both"
+  }
+}
